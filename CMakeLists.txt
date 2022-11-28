@@ -4,8 +4,8 @@ project(pt)
 
 add_executable("${PROJECT_NAME}" test_file_vector3d.cpp)
 
-add_subdirectory(matplotplusplus)
+find_package(Matplot++ REQUIRED)
 
-target_link_libraries("${PROJECT_NAME}" PUBLIC matplot)
+target_link_libraries("${PROJECT_NAME}" Matplot++::matplot)
 
 install(TARGETS "${PROJECT_NAME}" DESTINATION bin)
