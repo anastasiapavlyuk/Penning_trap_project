@@ -1,4 +1,4 @@
-# Penning_trap_project
+# Penning Trap Project
 
 It's a project for MIPT Computer Science classes.  
 
